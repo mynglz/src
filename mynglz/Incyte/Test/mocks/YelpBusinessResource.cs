@@ -47,5 +47,11 @@ namespace Test.mocks
             return dt;
         }
 
+
+
+        public object BusinessGetByLocation(string latitude, string longitude, string distance, Converter converter, object dataObject)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

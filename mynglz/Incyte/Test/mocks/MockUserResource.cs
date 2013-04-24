@@ -145,5 +145,21 @@ namespace Test.mocks
         }
 
         #endregion
+
+
+        public void LoginPasswordGet(string userName, string password, Converter converter, object dataObject)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void LoginPasswordValidateCreate(string userName, string password, Converter converter, object dataObject)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void LoginPasswordValidateReset(string userid, string userName, string password)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
