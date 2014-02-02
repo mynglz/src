@@ -4,4 +4,4 @@ csharp:
 build_environment: win2012
 cd mynglz
 cd Incyte
-before_install: msbuild mynglz/Incyte/Incyte.sln
+before_install: msbuild Incyte.sln
